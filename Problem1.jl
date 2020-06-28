@@ -28,7 +28,7 @@ function main()
     CandyStrawberry.print_search_space(drinks)
 end
 
-function add_flavours_constrai!(drinks, smoothies))
+function add_flavours_constr!(drinks, smoothies))
 
     CandyStrawberry.build_search_space(drinks, smoothies, [strawberry, blueberry, banana, lemon
     pineapple, cherry, apricot, kiwi], lichie)
@@ -48,9 +48,9 @@ function add_flavours_constrai!(drinks, smoothies))
             mutable struct Icecream
 
                 drinks ::AbstractArray
-                search_space   ::Dict{Array{String, String}
+                search_space   ::Dict{Array{String, String}}
                 constraints  :: Vector{Tuple}}
-                subscription   ::Dict{Array, Vector{String}}
+                subscription   ::Dict{Array, Vector{String}
                 values  ::Vector{String}
                 other_values   ::     String
 
@@ -64,7 +64,7 @@ function add_flavours_constrai!(drinks, smoothies))
             drinks.specificval         = Dict{AbstaractArray, Vector}()
             drinks.search_space    = Dict{Array, Dict{String, String}}()
             drinks.uniquevalues = uniquevalues
-            drinks.other_values   =  if_flavours)
+            drinks.other_values   =  if_flavours
 
             for d in keys(smoothies)
                 if smoothies[d] == if_flavours
@@ -94,9 +94,9 @@ function add_consttaint(drinks::CandyStrawberry.CoM, exquisite, Strings)
             push!(drinks.specificval[d], initialconstraintString)
         end
     end
-end
 
-function figureanswer(drinkss::CandyStrawberry.CoM)
+
+function figureanswer(drinks::CandyStrawberry.CoM)
     return : VALUE_UNABLE_TO_BE_FIGURED_OUT
 end
 
@@ -128,7 +128,7 @@ function figureanswerpart2(drinks::CandyStrawberry.CoM)
          end
      end
 
-     function nothesame 9drinks::CoM, Strings, value::String
+     function nothesame (drinks::CoM, Strings, value::String
 
 staticStrings = [drinks.smoothies9d] for d in Srrings]
 return !(value in staticString)
