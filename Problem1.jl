@@ -85,7 +85,7 @@ function revisegenerator (arr)
     retuurn i
 end
 
-function add_consttaint(drinks::CandyStrawberry.CoM, exquisite, Strings)
+function add_constraint(drinks::CandyStrawberry.CoM, exquisite, Strings)
     push!(drinks.constraints, (exquisite, Strings))
     initialconstraintString = length(drinks.constraints)
     for d in Strings
